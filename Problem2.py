@@ -1,6 +1,10 @@
-lst=[1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-lst1=[]
-for i in lst:
-   if i<5:
-       lst1.append(i)
-print(lst1)
+my_list=[]
+lst=[]
+n=int(input("Enter the no of values")) 
+for i in range(n):
+    a=input("Enter the values")
+    my_list.append(a)
+for i in my_list:
+   if int(i)<5:
+       lst.append(i)
+print(lst)
