@@ -1,6 +1,11 @@
-lst=[1, 1, 2, 3, 4, 64, 35, 93, 35, 87, 4, 3]
+lst=[]
+n=int(input("Enter the no of values")) 
+for i in range(n):
+    a=input("Enter the values")
+    lst.append(a)
 tmp=[]
 for i in lst:
     if i not in tmp:
         tmp.append(i)
 print(tmp)
+
